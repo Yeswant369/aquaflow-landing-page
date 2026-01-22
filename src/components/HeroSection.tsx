@@ -240,7 +240,8 @@ export function HeroSection() {
       <div className="relative z-10 container-width px-4 md:px-8 pt-24">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
-          <motion.div
+         {/* 
+           <motion.div
             style={{ y: textY, opacity }}
             className="text-center lg:text-left"
           >
@@ -276,6 +277,7 @@ export function HeroSection() {
                 </motion.p>
               </div>
             </motion.div>
+            */}
 
             <motion.h1
               initial={{ opacity: 0, y: 50 }}

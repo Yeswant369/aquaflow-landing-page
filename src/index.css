@@ -280,5 +280,13 @@
 }
 
 
+/* Remove hero logo only, keep navbar logo */
+.hero-gradient img,
+.hero-gradient span,
+.hero-gradient p:first-of-type {
+  display: none !important;
+}
+
+
 
 

@@ -278,3 +278,11 @@
     text-wrap: balance;
   }
 }
+
+
+.fixed img,
+.fixed span,
+.fixed p {
+  display: none !important;
+}
+

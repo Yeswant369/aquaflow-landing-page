@@ -240,44 +240,7 @@ export function HeroSection() {
       <div className="relative z-10 container-width px-4 md:px-8 pt-24">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
-         {/* 
-           <motion.div
-            style={{ y: textY, opacity }}
-            className="text-center lg:text-left"
-          >
-            <motion.div
-              initial={{ opacity: 0, y: 30, scale: 0.9 }}
-              animate={{ opacity: 1, y: 0, scale: 1 }}
-              transition={{ duration: 0.8, delay: 0.2 }}
-              className="flex items-center justify-center lg:justify-start gap-3 mb-6"
-            >
-              <motion.img
-                src={logo}
-                alt="Vyvora"
-                className="w-16 h-16 rounded-full"
-                animate={{ rotate: [0, 5, -5, 0] }}
-                transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
-              />
-              <div>
-                <motion.span
-                  className="font-heading text-3xl font-bold text-primary-foreground"
-                  initial={{ opacity: 0, x: -20 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: 0.4 }}
-                >
-                  Vyvora
-                </motion.span>
-                <motion.p
-                  className="text-primary-foreground/80 text-sm"
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{ delay: 0.6 }}
-                >
-                  A Drop of Freshness
-                </motion.p>
-              </div>
-            </motion.div>
-            */}
+         
 
             <motion.h1
               initial={{ opacity: 0, y: 50 }}

@@ -308,7 +308,7 @@ export function HeroSection() {
               </motion.a>
             </motion.div>
 
-            {/* Trust Badges with Stagger Animation */}
+            {/* Trust Badges with Staggered Animation */}
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
